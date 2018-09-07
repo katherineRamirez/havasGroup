@@ -1,20 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title></title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/logotipo.png">
+  <title>Family Gym</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar>
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+      </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#NuestrosGimnasios">Nuestros Gimnasios</a></li>
+          <li><a href="#ClubBeneficios">Club de Beneficios</a></li>
+          <li><a href="#Conocenos">Conócenos</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </header>
+
+  <!-- Banner -->
+    <section>
+      <div class="container-fluid imgBeneficio img-responsive">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="containerBeneficio">
+              <div class="text">
+                <h2 class="text-center">¡EMPIEZA ESTE VERANO EJERCITANDOTE EN FAMILIA!</h2>
+                <h3 class="text-center">Inscribete con un <span class="oferta"><strong>50%</strong></span> de descuento</h3>
+                <button class="btnInscribirse"><a href="">INSCRIBIRSE</button></a>
+              </div>            
+          </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="Servicios">
+      <div class="container container-images">
+        <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+            <h2>SERVICIOS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href=""><img src="assets/images/zumba.png"></a>
+            <h4 class="text-center">ZUMBA</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
+            <button class="btnDetalle"><a href="">Más Detalles</button></a>
+          </div>
+           <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href=""><img src="assets/images/pilates.jpg"></a>
+            <h4 class="text-center">PILATES</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
+            <button class="btnDetalle"><a href="">Más Detalles</button></a>
+          </div>
+           <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href=""><img src="assets/images/yoga.jpg"></a>
+            <h4 class="text-center">YOGA</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
+            <button class="btnDetalle"><a href="">Más Detalles</button></a>
+          </div>
+           <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href=""><img src="assets/images/cardio.jpg"></a>
+            <h4 class="text-center">CARDIO</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
+            <button class="btnDetalle"><a href="">Más Detalles</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider Gimnasios -->
+    <section id="NuestrosGimnasios" class="sectionCarousel">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+            <h2>NUESTROS GIMNASIOS</h2>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="assets/images/slider2.jpg" alt="...">
+        <div class="carousel-caption">
+          <h3>Vitacura</h3>
+        </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/slider1.jpg" alt="...">
+        <div class="carousel-caption">
+          <h3>Mall Plaza Sur</h3>
+        </div>
+        </div>
+         <div class="item">
+          <img src="assets/images/slider3.jpg" alt="...">
+        <div class="carousel-caption">
+          <h3>Mall Plaza Norte</h3>
+        </div>
+        </div> 
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </section>
+
+    <!-- Club de Beneficios -->
+    <section id="ClubBeneficios">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2>CLUB DE BENEFICIOS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conócenos -->
+    <section id="Conocenos">
+      
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center contenido-footer">
+            <input class="eMail" type="text" name="" placeholder="Ingrese su e-mail">
+            <input class="btnEmail" type="button" name="" value="SUSCRIBIRME">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center redSocial">
+            <img class="icon" src="assets/images/facebook-logo-de-letra.png">
+            <img class="icon" src="assets/images/logo-de-instagram.png">
+            <img class="icon" src="assets/images/youtube.png">
+            <img class="icon" src="assets/images/spotify.png">
+            <img class="icon" src="assets/images/simbolo-de-twitter.png">
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
 
+    <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- JQUERY -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
