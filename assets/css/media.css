@@ -1,12 +1,41 @@
 @media only screen and (max-width: 768px) {
+  section{
+    height: 120vh;
+  }
   .text{
-   margin-top: 12em;
+   margin-top: 10em;
   }
   .text h2{
     font-size: 2.5em;
   }
+  .btnInscribirse{
+    margin-left: 40%;
+    margin-top: 2em;
+  }
+  #Servicios{
+    margin-top: 2em;
+  }
   #ClubBeneficios{
-    margin-top: 4em;
+    margin-top: 0;
+    height: 160vh;
+  }
+  #ClubBeneficios .text-center h2,
+  #Servicios .tex-center h2,
+  #NuestrosGimnasios .text-center h2,
+  #Conocenos .text-center h2{
+    font-size: 1.8em;
+  }
+  #ClubBeneficios .text-center h3{
+    font-size: 0.99em;
+  }
+  #ClubBeneficios .conocenos .titleTarjeta{
+    font-size: 1.5em;
+  }
+  .conocenos ul li{
+    font-size: 1em;
+  }
+  .popup-contenedor {
+     width: 90%;
   }
 
 }
