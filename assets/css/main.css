@@ -33,14 +33,16 @@ header{
 }
 section{
   width: 100%;
-  height: 110vh;
-}
-#ClubBeneficios{
-  margin-top: 10em;
+  height: auto;
 }
 
 .informacionBeneficio{
   color: #ff5992;
+}
+#containerImgBeneficio{
+  width: 100%;
+  height: auto;
+  padding-bottom: 2em;
 }
 .imgBeneficio{
   background-image: url(../images/imgBeneficio.jpg);
@@ -54,6 +56,13 @@ h2, h4, .oferta{
 }
 h2, h4{
   margin: 2em;
+}
+.containerBeneficio h3{
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  background-color: #000;
 }
 h3{
   color: #fff;
@@ -69,7 +78,7 @@ h3{
   background-color: #a4d555;
   border: 2px transparent;
   border-radius: 50px 20px;
-  margin-left: 45%;
+  margin-left: 20%;
   margin-top: 2em;
 }
 
@@ -92,19 +101,21 @@ h3{
 .titleTarjeta{
   color: #0d1225;
 }
-.familia{
-  width: 35%;
-  height: auto;
-}
+
 #Conocenos{
   background-image: url(../images/fondo.jpg);
   width: 100%;
-  height: 100vh;
-  background-size: cover;  
+  height: auto;
+  background-size: 100% 100%;  
   background-repeat: no-repeat;
+  margin-top: 2em;
 }
 .conocenos{
   margin-top: 3em;
+}
+.familia{
+  width: 35%;
+  height: auto;
 }
 .conocenos ul li{
   margin-top: 2em;
@@ -115,7 +126,7 @@ footer{
   margin-top: 2em;
   background: #0d1225;
   color: white;
-  height: 100%;
+  height: auto;
   padding-bottom: 2em;
 }
 .contenido-footer, .redSocial{
