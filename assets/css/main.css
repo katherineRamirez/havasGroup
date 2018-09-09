@@ -81,7 +81,24 @@ h3{
   margin-left: 20%;
   margin-top: 2em;
 }
-
+.images{
+  color: #fff;
+}
+.zumba, .yoga, .pilates, .cardio{
+  padding-bottom: 2em;
+}
+.zumba{
+  background-color: #dae9e4;
+}
+.yoga{
+  background-color: #8bcbcb;
+}
+.pilates{
+  background-color: #ecc7cd;
+}
+.cardio{
+  background-color: #fdae84;
+}
 .container-images{
   width: 100%;
 }
@@ -100,6 +117,9 @@ h3{
 }
 .titleTarjeta{
   color: #0d1225;
+}
+.imgClubBeneficio{
+  border-radius: 50px 20px;
 }
 
 #Conocenos{

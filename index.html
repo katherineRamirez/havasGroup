@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="assets/images/logotipo.png">
-  <title>Family Gym</title>
+  <title>eGym</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,6 +13,7 @@
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
@@ -28,7 +29,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png"></a>
       </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -82,27 +83,27 @@
             <h2>SERVICIOS</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3 col-xs-6 col-sm-6">
-            <a href=""><img src="assets/images/zumba.png"></a>
+        <div class="row images">
+          <div class="col-md-3 col-xs-6 col-sm-6 zumba">
+            <a href=""><img class="wow pulse" data-wow-duration="4s" data-wow-delay="1s" src="assets/images/zumba.png"></a>
             <h4 class="text-center">ZUMBA</h4>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
             <button class="btnDetalle"><a href="">Más Detalles</button></a>
           </div>
-           <div class="col-md-3 col-xs-6 col-sm-6">
-            <a href=""><img src="assets/images/pilates.jpg"></a>
+           <div class="col-md-3 col-xs-6 col-sm-6 pilates">
+            <a href=""><img class="wow pulse" data-wow-duration="4s" data-wow-delay="1s" src="assets/images/pilates.jpg"></a>
             <h4 class="text-center">PILATES</h4>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
             <button class="btnDetalle"><a href="">Más Detalles</button></a>
           </div>
-           <div class="col-md-3 col-xs-6 col-sm-6">
-            <a href=""><img src="assets/images/yoga.jpg"></a>
+           <div class="col-md-3 col-xs-6 col-sm-6 yoga">
+            <a href=""><img class="wow pulse" data-wow-duration="4s" data-wow-delay="1s" src="assets/images/yoga.jpg"></a>
             <h4 class="text-center">YOGA</h4>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
             <button class="btnDetalle"><a href="">Más Detalles</button></a>
           </div>
-           <div class="col-md-3 col-xs-6 col-sm-6">
-            <a href=""><img src="assets/images/cardio.jpg"></a>
+           <div class="col-md-3 col-xs-6 col-sm-6 cardio">
+            <a href=""><img class="wow pulse" data-wow-duration="4s" data-wow-delay="1s" src="assets/images/cardio.jpg"></a>
             <h4 class="text-center">CARDIO</h4>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit viverra, phasellus a aptent.</p>
             <button class="btnDetalle"><a href="">Más Detalles</button></a>
@@ -176,8 +177,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12 conocenos">
-            <img class="img-responsive" src="assets/images/gimnasio1.jpg">
+          <div class="col-md-6 col-sm-12 col-xs-12 conocenos contImg">
+            <img class="img1 imgClubBeneficio img-responsive wow tada" data-wow-duration="4s" data-wow-delay="1s" src="assets/images/1.jpg">
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 text-center conocenos">
             <h3 class="titleTarjeta">USA TU TARJETA</h3>
@@ -241,6 +242,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
