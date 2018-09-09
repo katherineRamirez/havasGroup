@@ -1,5 +1,10 @@
 # Prueba Técnica Front-End Havas Group
 
+![bootstrap3](https://img.shields.io/badge/bootstrap3--green.svg)
+![jquery](https://img.shields.io/badge/jquery--blue.svg)
+![wow.js](https://img.shields.io/badge/wow.js--red.svg)
+
+
 ## Desafío:
 
 Elegir o inventar una marca y diseñar una interfaz(versión mobile y desktop) considerando el siguiente objetivo: **Posicionar la marca en actividades de verano mediante la inscripción al club de beneficios.**
