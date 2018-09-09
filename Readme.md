@@ -11,8 +11,8 @@ Elegir o inventar una marca y diseñar una interfaz(versión mobile y desktop) c
 
 ## Pasos a seguir:
 
---* Incorporar nuevas actividades por temporada de verano.
---* Realizar ofertas y promociones adecuada para la temporada.
+- Incorporar nuevas actividades por temporada de verano.
+- Realizar ofertas y promociones adecuada para la temporada.
 
 ## Paleta de colores:
 
@@ -27,7 +27,7 @@ Elegir o inventar una marca y diseñar una interfaz(versión mobile y desktop) c
 
 ## Tipografía:
 
---* Anton
+- Anton
 
 
 
